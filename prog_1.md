@@ -1,4 +1,5 @@
 # Documentation for prog_1.c
+
 ## Balanced Parentheses Using Stack
 This program takes any mathematical expression such as a+(b-c) as input and checks if the the number of parentheses and their order in the expression is valid or not.
 
