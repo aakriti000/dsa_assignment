@@ -91,32 +91,6 @@ Enter your choice: 1
 Enter data to insert: 60
 Element 60 inserted successfully!
 
-1. Insert element at end
-2. Display list (forward)
-3. Display list (reverse)
-4. Count nodes
-5. Exit
-Enter your choice: 3
-Reverse Traversal: 60 50 40 30 20 10 
-
-1. Insert element at end
-2. Display list (forward)
-3. Display list (reverse)
-4. Count nodes
-5. Exit
-Enter your choice: 4
-Total nodes in list: 6
-
-1. Insert element at end
-2. Display list (forward)
-3. Display list (reverse)
-4. Count nodes
-5. Exit
-Enter your choice: 5
-
-Freeing memory and exiting
-Thank you for using the program!
-```
 
 ## How to Compile and Run
 
@@ -128,26 +102,11 @@ gcc prog_3.c -o prog_3
 ## Algorithm Explanation
 
 ### Reverse Traversal Algorithm (Recursive)
-1. If current node is NULL, return (base case)
-2. Recursively call function on next node
-3. Print current node's data
+ If current node is NULL, return (base case)
+ Recursively call function on next node
+ Print current node's data
 
-**Why this works**: The recursion first reaches the last node, then prints values while returning back through the call stack, effectively printing in reverse order.
 
-**Call Stack Visualization**:
-```
-reverseTraversal(10) calls reverseTraversal(20)
-  reverseTraversal(20) calls reverseTraversal(30)
-    reverseTraversal(30) calls reverseTraversal(40)
-      reverseTraversal(40) calls reverseTraversal(50)
-        reverseTraversal(50) calls reverseTraversal(NULL)
-        reverseTraversal(NULL) returns
-        Print 50
-      Print 40
-    Print 30
-  Print 20
-Print 10
-```
 
 ## Time and Space Complexity
 
