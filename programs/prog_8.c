@@ -278,7 +278,7 @@ int main() {
                 return 0;
                 
             default:
-                printf("\nInvalid choice! Please try again.\n");
+                printf("\nInvalid choice! Please try again\n");
         }
     }
     
